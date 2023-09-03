@@ -1,0 +1,96 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.contenedor-clima{
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.658);
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h1 .color1{
+    color: rgb(107, 107, 170);
+}
+
+h1 .color2{
+    color: rgb(155, 155, 155);
+}
+
+h1 .color3{
+    color: rgb(255, 187, 0);
+}
+
+h3{
+    margin-top: -20px;
+}
+
+input{
+    padding: 5px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#ciudad-input::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500px;
+}
+
+button{
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+button i{
+    font-size: 15px;
+    position: relative;
+    left: -5px;
+    bottom: -1.5px;
+}
+
+button:hover{
+    background-color: #00356d;
+}
+
+#info-clima{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#info-clima img{
+    height: 120px;
+}
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding:5px;
+}
+
+.fixed-footer a{
+    text-decoration: none;
+    color: blue;
+}

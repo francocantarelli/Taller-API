@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weatherClima</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    
+    <div class="contenedor-clima">
+        <label for="ciudad-input"><h1 id="nombreApp"><span class="color1">weather</span><span class="color2">Clima</span><span class="color3">App</span></h1></label>
+        <label for="ciudad-input"><h3>Obten el Clima:</h3></label>
+        <input type="text" id="ciudad-input" placeholder="Nombre de la Ciudad">
+        <button id="obtener-clima"><i class='bx bx-search-alt-2 bx-tada' ></i> Buscar Ciudad</button>
+        <div id="info-clima"></div>
+    </div>
+    <div class="fixed-footer">
+        <p>Creado por <a target="_blank" href="https://github.com/francocantarelli">Franco</a> &copy; 2023</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
