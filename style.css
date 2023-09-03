@@ -2,6 +2,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     background-color: rgb(255, 255, 255);
+    overflow-y: hidden;
 }
 
 .contenedor-clima{
